@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: rgb(21, 21, 90);
+    background-color: black;
 }
 .flex{
     display: flex;
@@ -57,11 +57,138 @@ nav li:first-child{
     font-size: 1.2em;
 }
 .col-1{
-    background-image:url(./imags/gettyimages-166103292-612x612.web.jpg);
+    background-image:url(./imags/screw.jpg);
     height: 100%;
     background-size: cover;
     background-position: center;
 }
-.col-2{
-    align-items: center;
+.col-2 h6{
+    font-size: 20px;
+    margin-top: 100px;
+    color: white;
+
+}
+.col-2 h6 span {
+    width: 5px;
+    height: 20px;
+    background-color: rgba(211,118,58,255);
+    display :inline-block;
+}
+.col-2 {
+    margin-left: 50px;
+}
+.col-2 h1{
+
+    font-size: 60px;
+    color: white;
+
+}
+.col-2 h1 span {
+    color: rgba(211,118,58,255);
+}
+.b{
+    margin-top: 20px;
+}
+.b :first-child {
+    border: solid 2px white;
+    background-color: transparent ;
+    color: white;
+    padding: 5px 12px;
+    font-weight: 100;
+}
+.b .b1 {
+    background-color: rgba(211,118,58,255);
+    padding: 8px 17px; 
+    border: none;
+    margin-left: 5px;
+    color: white;
+}
+.col-3 {
+    text-align: center;
+}
+.col-3 h6 {
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+.col-3 h1 {
+    color: rgb(9, 9, 140) ;
+    
+}
+.col-3 span{
+    display:inline-block;
+    background-color: orange;
+    height: 3px;
+    width: 20px;
+    margin-bottom: 30px;
+}
+#spn2{
+    display:inline-block;
+    background-color: rgb(3, 3, 98);
+    height: 3px;
+    width: 20px;
+    margin-bottom: 30px;
+    margin-left: -5px;
+}
+.main2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.main2 h2 {
+    color: rgb(21, 12, 121);
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.main2 p {
+    color: grey;
+    margin-left: 30px;
+    width: 207px;
+}
+.card-1{
+    height: 400px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 15px gray;
+    padding: 10px;
+
+}
+.card-1 button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.card-2 {
+    height: 400px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 15px gray;
+    padding: 10px;
+}
+.card-2 button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.card-3 {
+    height: 400px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 15px gray;
+    padding: 10px;
+}
+.card-3 button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
